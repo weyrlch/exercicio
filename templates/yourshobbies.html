@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your hobbies</title>
+</head>
+<body>
+      <h1> {{ nome }} seus hobbies são</h1>
+      <ul>
+      {% for i in hobbies %}
+        <li>{{ i }}</li>
+        {% endfor %}
+      </ul>
+</body>
+</html>
